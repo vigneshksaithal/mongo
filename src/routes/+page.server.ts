@@ -3,6 +3,8 @@ import { connectToDb } from '$lib/db/mongo';
 import type { Todo } from '$lib/db/mongo';
 import { ObjectId } from 'mongodb';
 
+export const csr = false
+
 export const load = (async () => {
     const db = await connectToDb();
     const todos = await db.collection<Todo>('todos')
