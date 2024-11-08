@@ -6,7 +6,7 @@
 </script>
 
 <div class="container mx-auto max-w-2xl p-4">
-    <h1 class="text-3xl font-bold mb-6">Todo List</h1>
+    <h1 class="text-3xl font-bold mb-6">DB connected to MongoDB</h1>
 
     <form method="POST" action="?/addTodo" use:enhance class="mb-6">
         <div class="flex gap-2">
